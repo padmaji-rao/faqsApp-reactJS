@@ -1,0 +1,28 @@
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: solid 1px #d7dae6;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.question-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.faq-heading {
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 20px;
+  color: #52606d;
+}
+.active-button {
+  border: 0px solid;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.answer {
+  color: #9aa5b1;
+}
